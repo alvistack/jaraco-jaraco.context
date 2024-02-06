@@ -4,6 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "jaraco.context"
+version = "6.0.0"
 authors = [
 	{ name = "Jason R. Coombs", email = "jaraco@jaraco.com" },
 ]
@@ -20,7 +21,6 @@ requires-python = ">=3.8"
 dependencies = [
 	'backports.tarfile; python_version < "3.12"',
 ]
-dynamic = ["version"]
 
 [project.urls]
 Source = "https://github.com/jaraco/jaraco.context"
@@ -51,5 +51,3 @@ doc = [
 
 	# local
 ]
-
-[tool.setuptools_scm]
