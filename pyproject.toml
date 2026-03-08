@@ -1,14 +1,12 @@
 [build-system]
 requires = [
 	"setuptools>=77",
-	"setuptools_scm[toml]>=3.4.1",
-	# jaraco/skeleton#174
-	"coherent.licensed",
 ]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "jaraco.context"
+version = "6.1.1"
 authors = [
 	{ name = "Jason R. Coombs", email = "jaraco@jaraco.com" },
 ]
@@ -21,11 +19,10 @@ classifiers = [
 	"Programming Language :: Python :: 3 :: Only",
 ]
 requires-python = ">=3.9"
-license = "MIT"
+license = { text = "MIT" }
 dependencies = [
 	'backports.tarfile; python_version < "3.12"',
 ]
-dynamic = ["version"]
 
 [project.urls]
 Source = "https://github.com/jaraco/jaraco.context"
@@ -76,9 +73,6 @@ type = [
 
 	# local
 ]
-
-
-[tool.setuptools_scm]
 
 
 [tool.pytest-enabler.mypy]
