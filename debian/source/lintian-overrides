@@ -1,0 +1,5 @@
+python-jaraco.context source: file-without-copyright-information
+python-jaraco.context source: no-debian-changes
+python-jaraco.context source: source-contains-prebuilt-windows-binary
+python-jaraco.context source: source-is-missing
+python-jaraco.context source: source-package-encodes-python-version
